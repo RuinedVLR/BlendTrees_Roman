@@ -66,7 +66,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -94,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,13 +108,13 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 0
-  alphaIsTransparency: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -160,9 +160,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 224
-        width: 22
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -182,9 +182,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 192
-        width: 15
+        x: 32
+        y: 224
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,9 +204,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 37
+        x: 64
         y: 224
-        width: 22
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -226,9 +226,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 40
-        y: 192
-        width: 17
+        x: 96
+        y: 224
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -248,9 +248,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 70
+        x: 128
         y: 224
-        width: 21
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -270,9 +270,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_5
       rect:
         serializedVersion: 2
-        x: 71
+        x: 0
         y: 192
-        width: 16
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -292,9 +292,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_6
       rect:
         serializedVersion: 2
-        x: 101
-        y: 224
-        width: 22
+        x: 32
+        y: 192
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -314,9 +314,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_7
       rect:
         serializedVersion: 2
-        x: 101
+        x: 64
         y: 192
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -336,9 +336,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_8
       rect:
         serializedVersion: 2
-        x: 133
-        y: 224
-        width: 21
+        x: 96
+        y: 192
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -358,9 +358,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_9
       rect:
         serializedVersion: 2
-        x: 135
+        x: 128
         y: 192
-        width: 16
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: Animated Character Sprite Sheet_10
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 160
-        width: 22
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,9 +402,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_11
       rect:
         serializedVersion: 2
-        x: 9
-        y: 128
-        width: 15
+        x: 32
+        y: 160
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: Animated Character Sprite Sheet_12
       rect:
         serializedVersion: 2
-        x: 37
+        x: 64
         y: 160
-        width: 22
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,9 +446,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_13
       rect:
         serializedVersion: 2
-        x: 39
-        y: 128
-        width: 17
+        x: 96
+        y: 160
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: Animated Character Sprite Sheet_14
       rect:
         serializedVersion: 2
-        x: 69
+        x: 128
         y: 160
-        width: 21
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,9 +490,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_15
       rect:
         serializedVersion: 2
-        x: 73
+        x: 0
         y: 128
-        width: 16
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: Animated Character Sprite Sheet_16
       rect:
         serializedVersion: 2
-        x: 101
-        y: 160
-        width: 22
-        height: 31
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,9 +534,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_17
       rect:
         serializedVersion: 2
-        x: 103
+        x: 64
         y: 128
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: Animated Character Sprite Sheet_18
       rect:
         serializedVersion: 2
-        x: 134
-        y: 160
-        width: 21
-        height: 31
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,9 +578,9 @@ TextureImporter:
       name: Animated Character Sprite Sheet_19
       rect:
         serializedVersion: 2
-        x: 137
+        x: 128
         y: 128
-        width: 16
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -600,7 +600,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 90cccbf6e3449f246b24a2eb6abf222e
     internalID: 0
     vertices: []
     indices: 
